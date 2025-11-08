@@ -26,3 +26,5 @@ A console-based system monitor built in **C++** for **Linux**, displaying real-t
 2. Compile the C++ file:
 ```bash
 g++ system_monitor.cpp -o system_monitor
+
+![Description]("D:\New folder\Screenshot 2025-11-08 181646.png")
