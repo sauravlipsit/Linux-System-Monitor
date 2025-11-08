@@ -27,6 +27,6 @@ A console-based system monitor built in **C++** for **Linux**, displaying real-t
 ```bash
 g++ system_monitor.cpp -o system_monitor
 
-![Description]("D:\New folder\Screenshot 2025-11-08 181646.png")
-![Description](Screenshot 2025-11-08 181646.png)
 
+
+<img width="815" height="197" alt="Screenshot 2025-11-08 181646" src="https://github.com/user-attachments/assets/07b274da-f10f-4e91-80b4-047f535dd061" />
