@@ -1,25 +1,28 @@
+# 🖥️ Linux System Monitor Tool (C++)
+
+## 📌 Overview
+A console-based system monitor built in **C++** for **Linux**, displaying real-time system information such as CPU usage, memory usage, uptime, running processes, disk usage, and temperature. Similar to the Linux `top` command.
 
 ---
 
-### 🌐 Step 4: Showcase in Your Resume / Interview
-You can now say something like this:
-
-> **Project:** System Monitor Tool (C++ & Linux)  
-> - Developed a real-time system performance monitor using C++.  
-> - Collected system metrics from the `/proc` filesystem and displayed CPU, memory, and process usage.  
-> - Implemented periodic data logging and top process tracking.  
-> - Deployed on GitHub with detailed documentation.
-
-✅ Tip: Take a **screenshot** of your tool running in the terminal and include it in your README or PPT!
-
----
-
-### 🧱 Step 5 (Optional): Make It Interactive
-If you want to impress more:
-- Add a **menu** (press 1 to show CPU, 2 for Memory, etc.)
-- Or use `ncurses` library for a more dynamic terminal UI (like `top`).
+## ⚙️ Features
+- Displays CPU usage and memory usage
+- Shows system uptime
+- Displays the total number of running processes
+- Lists top 5 CPU-consuming processes:
+  - Firefox
+  - Chrome
+  - VS Code
+  - gnome-shell
+  - systemd
+- Shows disk usage stats (`df -h`)
+- Displays system temperature (if supported)
+- Saves system report to `log.txt` every 10 seconds
 
 ---
 
-Would you like me to give you the **next version of the code** that adds those features (top 5 processes, disk usage, temperature, and log saving)?  
-It’ll make your project look professional and complete.
+## 🧑‍💻 How to Run
+1. Open your Linux terminal in the project folder.
+2. Compile the C++ file:
+```bash
+g++ system_monitor.cpp -o system_monitor
